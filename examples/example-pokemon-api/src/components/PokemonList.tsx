@@ -8,6 +8,7 @@ const PokemonsQuery = graphql(`
     pokemons(limit: $limit) {
       id
       ...PokemonItem
+      
     }
   }
 `, [PokemonItemFragment]);
