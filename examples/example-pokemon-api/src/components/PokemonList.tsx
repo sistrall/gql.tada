@@ -7,6 +7,396 @@ const PokemonsQuery = graphql(`
   query Pokemons ($limit: Int = 10) {
     pokemons(limit: $limit) {
       id
+      evolutions {
+        evolutions {
+          evolutions {
+            evolutions {
+              evolutions {
+                evolutions {
+                  evolutions {
+                    evolutions {
+                      evolutions {
+                        evolutions {
+                          id
+                          name
+                          resistant
+                          types
+                          weaknesses
+                          maxCP
+                          maxHP
+                          weight {
+                            minimum
+                            maximum
+                            __typename
+                          }
+                          height {
+                            minimum
+                            maximum
+                            __typename
+                          }
+                          evolutionRequirements {
+                            amount
+                            name
+                            __typename
+                          }
+                          fleeRate
+                          attacks {
+                            fast {
+                              damage
+                              name
+                              type
+                              __typename
+                            }
+                            special {
+                              damage
+                              name
+                              type
+                              __typename
+                            }
+                          }
+                        }
+                        id
+                        name
+                        resistant
+                        types
+                        weaknesses
+                        maxCP
+                        maxHP
+                        weight {
+                          minimum
+                          maximum
+                          __typename
+                        }
+                        height {
+                          minimum
+                          maximum
+                          __typename
+                        }
+                        evolutionRequirements {
+                          amount
+                          name
+                          __typename
+                        }
+                        fleeRate
+                        attacks {
+                          fast {
+                            damage
+                            name
+                            type
+                            __typename
+                          }
+                          special {
+                            damage
+                            name
+                            type
+                            __typename
+                          }
+                        }
+                      }
+                      id
+                      name
+                      resistant
+                      types
+                      weaknesses
+                      maxCP
+                      maxHP
+                      weight {
+                        minimum
+                        maximum
+                        __typename
+                      }
+                      height {
+                        minimum
+                        maximum
+                        __typename
+                      }
+                      evolutionRequirements {
+                        amount
+                        name
+                        __typename
+                      }
+                      fleeRate
+                      attacks {
+                        fast {
+                          damage
+                          name
+                          type
+                          __typename
+                        }
+                        special {
+                          damage
+                          name
+                          type
+                          __typename
+                        }
+                      }
+                    }
+                    id
+                    name
+                    resistant
+                    types
+                    weaknesses
+                    maxCP
+                    maxHP
+                    weight {
+                      minimum
+                      maximum
+                      __typename
+                    }
+                    height {
+                      minimum
+                      maximum
+                      __typename
+                    }
+                    evolutionRequirements {
+                      amount
+                      name
+                      __typename
+                    }
+                    fleeRate
+                    attacks {
+                      fast {
+                        damage
+                        name
+                        type
+                        __typename
+                      }
+                      special {
+                        damage
+                        name
+                        type
+                        __typename
+                      }
+                    }
+                  }
+                  id
+                  name
+                  resistant
+                  types
+                  weaknesses
+                  maxCP
+                  maxHP
+                  weight {
+                    minimum
+                    maximum
+                    __typename
+                  }
+                  height {
+                    minimum
+                    maximum
+                    __typename
+                  }
+                  evolutionRequirements {
+                    amount
+                    name
+                    __typename
+                  }
+                  fleeRate
+                  attacks {
+                    fast {
+                      damage
+                      name
+                      type
+                      __typename
+                    }
+                    special {
+                      damage
+                      name
+                      type
+                      __typename
+                    }
+                  }
+                }
+                id
+                name
+                resistant
+                types
+                weaknesses
+                maxCP
+                maxHP
+                weight {
+                  minimum
+                  maximum
+                  __typename
+                }
+                height {
+                  minimum
+                  maximum
+                  __typename
+                }
+                evolutionRequirements {
+                  amount
+                  name
+                  __typename
+                }
+                fleeRate
+                attacks {
+                  fast {
+                    damage
+                    name
+                    type
+                    __typename
+                  }
+                  special {
+                    damage
+                    name
+                    type
+                    __typename
+                  }
+                }
+              }
+              id
+              name
+              resistant
+              types
+              weaknesses
+              maxCP
+              maxHP
+              weight {
+                minimum
+                maximum
+                __typename
+              }
+              height {
+                minimum
+                maximum
+                __typename
+              }
+              evolutionRequirements {
+                amount
+                name
+                __typename
+              }
+              fleeRate
+              attacks {
+                fast {
+                  damage
+                  name
+                  type
+                  __typename
+                }
+                special {
+                  damage
+                  name
+                  type
+                  __typename
+                }
+              }
+            }
+            id
+            name
+            resistant
+            types
+            weaknesses
+            maxCP
+            maxHP
+            weight {
+              minimum
+              maximum
+              __typename
+            }
+            height {
+              minimum
+              maximum
+              __typename
+            }
+            evolutionRequirements {
+              amount
+              name
+              __typename
+            }
+            fleeRate
+            attacks {
+              fast {
+                damage
+                name
+                type
+                __typename
+              }
+              special {
+                damage
+                name
+                type
+                __typename
+              }
+            }
+          }
+          id
+          name
+          resistant
+          types
+          weaknesses
+          maxCP
+          maxHP
+          weight {
+            minimum
+            maximum
+            __typename
+          }
+          height {
+            minimum
+            maximum
+            __typename
+          }
+          evolutionRequirements {
+            amount
+            name
+            __typename
+          }
+          fleeRate
+          attacks {
+            fast {
+              damage
+              name
+              type
+              __typename
+            }
+            special {
+              damage
+              name
+              type
+              __typename
+            }
+          }
+        }
+        id
+        name
+        resistant
+        types
+        weaknesses
+        maxCP
+        maxHP
+        weight {
+          minimum
+          maximum
+          __typename
+        }
+        height {
+          minimum
+          maximum
+          __typename
+        }
+        evolutionRequirements {
+          amount
+          name
+          __typename
+        }
+        fleeRate
+        attacks {
+          fast {
+            damage
+            name
+            type
+            __typename
+          }
+          special {
+            damage
+            name
+            type
+            __typename
+          }
+        }
+      }
       ...PokemonItem
       
     }
