@@ -1,5 +1,12 @@
 # gql.tada
 
+## 1.7.7
+
+### Patch Changes
+
+- ⚠️ Fix `@defer`, `@skip`, and `@include` optional fragments causing types to become exponentially more complex to evaluate, causing a recursive type error. Instead, merging field types and sub-selections from fragments is now separated, as needed
+  Submitted by [@kitten](https://github.com/kitten) (See [#319](https://github.com/0no-co/gql.tada/pull/319))
+
 ## 1.7.6
 
 ### Patch Changes
