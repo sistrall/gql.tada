@@ -168,10 +168,10 @@ type getPossibleTypeSelectionRec<
         ? getSpreadSubtype<Node, Type, Introspection, Fragments> extends infer Subtype extends
             ObjectLikeType
           ? PossibleType extends getTypenameOfType<Subtype>
-            ?
-                | (isOptional<Node> extends true ? {} : never)
-                | getFragmentSelection<Node, PossibleType, Subtype, Introspection, Fragments>
-            : {}
+            ? isOptional<Node> extends true
+              ? getFragmentSelection<Node, PossibleType, Subtype, Introspection, Fragments> | {}
+              : getFragmentSelection<Node, PossibleType, Subtype, Introspection, Fragments>
+            : never
           : Node extends { kind: Kind.FRAGMENT_SPREAD; name: any }
             ? makeUndefinedFragmentRef<Node['name']['value']>
             : {}
